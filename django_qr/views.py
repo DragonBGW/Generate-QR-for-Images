@@ -23,6 +23,7 @@ def generate_qr_code(request):
 
             context = {
                 'res_name': res_name,
+                
                 'qr_url': qr_url,
                 'file_name': file_name,
             }
